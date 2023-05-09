@@ -1,5 +1,6 @@
+@import "css/main.css";
 @import "css/heroSection.css";
-
+@import "css/navbar.css";
 
 /* Colour Palette 
 Black - #1E2023
@@ -9,37 +10,3 @@ Pink - #FE206F
 Cyan - #50C8CF
 Light Grey - #DEDEDF
 */
-
-
-
-* {
-  box-sizing: border-box;
-}
-
-body,
-html {
-  margin: 0;
-  min-height: 100vh;
-  font-family: 'Roboto Mono', monospace;
-}
-
-h1 {
-  font-size: 64px;
-}
-
-a {
-  text-decoration: none;
-  color: #FEFFFE;
-}
-
-.text--big {
-  font-size: 128px;
-}
-
-.color--cyan {
-  color: #50C8CF ;
-}
-
-.color--pink {
-  color: #FE206F ;
-}

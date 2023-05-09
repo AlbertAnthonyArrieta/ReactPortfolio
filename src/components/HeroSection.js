@@ -19,11 +19,10 @@ export const HeroSection = () => {
 					,
 					and
 					<span className='color--pink'> User-friendly </span>
-					software.
+					code.
 					
 				</h1>
 			</Container>
-
 		</div>
 	)
 }

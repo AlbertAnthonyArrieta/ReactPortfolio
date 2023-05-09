@@ -1,0 +1,68 @@
+
+/* Colour Palette 
+Black - #1E2023
+Bluish Black - #161B22
+White - #FEFFFE
+Pink - #FE206F
+Cyan - #50C8CF
+Light Grey - #DEDEDF
+*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body,
+  html {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #FEFFFE;
+  }
+  
+  .text--big {
+    font-size: 128px;
+  }
+  
+  .color--cyan {
+    color: #50C8CF ;
+  }
+  
+  .color--pink {
+    color: #FE206F ;
+  }
+
+  /* Sections */
+  .section {
+    padding-top: 50px;
+  }
+
+  .section--title {
+    text-align: center;
+  }
+
+  .section__imageanddesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section__imageanddesc--image {
+    width: 400px;
+  }
+
+  #section--about {
+    
+  }
