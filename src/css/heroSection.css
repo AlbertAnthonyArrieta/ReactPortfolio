@@ -1,0 +1,26 @@
+/* #particleArt{
+    position: absolute;
+    background: #1E2023;
+    vertical-align: bottom;
+    width: 99vw;
+  } */
+
+#section--hero {
+  background-color: #1E2023;;
+  color: #FEFFFE;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section--hero__text {
+  border-left: #50C8CF solid 10px;
+}
+
+#section--hero__text h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
