@@ -1,7 +1,7 @@
 import './App.css';
-import HeroSection from "./components/HeroSection";
-import Navigation from './components/Navigation';
-import PageContent from './components/PageContent';
+import HeroSection from "./components/sections/HeroSection";
+import AboutSection from "./components/sections/AboutSection";
+import Navigation from './components/common/Navigation';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <HeroSection />
       <Navigation />
-      <PageContent />
+      <AboutSection />
     </div>
   );
 }

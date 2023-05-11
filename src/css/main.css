@@ -33,15 +33,19 @@ Light Grey - #DEDEDF
     color: #FEFFFE;
   }
   
-  .text--big {
+  .text__big {
     font-size: 128px;
   }
+
+  .text__center {
+    text-align: center;
+  }
   
-  .color--cyan {
+  .color__cyan {
     color: #50C8CF ;
   }
   
-  .color--pink {
+  .color__pink {
     color: #FE206F ;
   }
 
@@ -52,8 +56,10 @@ Light Grey - #DEDEDF
     padding: 50px;
   }
 
-  #section--about {
-    
+  .section--subheading {
+    border-left: #FE206F solid 5px;
+    padding-left: 10px;
+
   }
 
   /* Components */
@@ -67,9 +73,4 @@ Light Grey - #DEDEDF
 
   .imageanddesc--image {
     width: auto;
-  }
-
-  .imageanddesc--heading {
-    border-left: #FE206F solid 5px;
-    padding-left: 10px;
   }

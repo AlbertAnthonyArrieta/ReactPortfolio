@@ -1,5 +1,5 @@
 @import "../css/animations.css";
-#section--hero {
+.hero {
   height: 100vh;
   background-color: #1E2023;
   display: flex;
@@ -8,7 +8,7 @@
   flex-direction: column;
 }
 
-#section--hero__main {
+.hero__main {
   height: 70vh;
   color: #FEFFFE;
   background-position: center center;
@@ -18,18 +18,18 @@
   flex-direction: column;
 }
 
-#section--hero__text {
+.hero__text {
   border-left: #50C8CF solid 10px;
 }
 
-#section--hero__text h1 {
+.hero__text h1 {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 15px;
   font-weight: 300;
 }
 
-#container--scroller {
+.hero__scroller {
   text-align: center;
   display: flex;
   justify-content: center;

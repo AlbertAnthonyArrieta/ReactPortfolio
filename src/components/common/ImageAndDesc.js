@@ -1,5 +1,5 @@
 import Image from 'react-bootstrap/Image';
-import Placeholder from '../images/placeholder.jpg';
+import Placeholder from '../../images/placeholder.jpg';
 import { Container } from 'react-bootstrap';
 export const ImageAndDesc = ({img, heading, paragraph, order}) => {
 
@@ -9,7 +9,7 @@ export const ImageAndDesc = ({img, heading, paragraph, order}) => {
                 <div className='imageanddesc'>
                     <Image className='imageanddesc--image' src={img} rounded />
                     <div>
-                    <h2 className='imageanddesc--heading'>{heading}</h2>
+                    <h2 className='section--subheading'>{heading}</h2>
                     <p>
                         {paragraph}
                     </p>
