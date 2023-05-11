@@ -1,18 +1,21 @@
-/* #particleArt{
-    position: absolute;
-    background: #1E2023;
-    vertical-align: bottom;
-    width: 99vw;
-  } */
-
+@import "../css/animations.css";
 #section--hero {
-  background-color: #1E2023;;
-  color: #FEFFFE;
-  background-position: center center;
   height: 100vh;
+  background-color: #1E2023;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+#section--hero__main {
+  height: 70vh;
+  color: #FEFFFE;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #section--hero__text {
@@ -24,4 +27,16 @@
   margin-bottom: 10px;
   padding-left: 15px;
   font-weight: 300;
+}
+
+#container--scroller {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #FEFFFE;
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
