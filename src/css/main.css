@@ -46,24 +46,30 @@ Light Grey - #DEDEDF
   }
 
   /* Sections */
-  .section {
-    padding-top: 50px;
-  }
 
   .section--title {
     text-align: center;
-  }
-
-  .section__imageanddesc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .section__imageanddesc--image {
-    width: 400px;
+    padding: 50px;
   }
 
   #section--about {
     
+  }
+
+  /* Components */
+  
+  .imageanddesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .imageanddesc--image {
+    width: auto;
+  }
+
+  .imageanddesc--heading {
+    border-left: #FE206F solid 5px;
+    padding-left: 10px;
   }

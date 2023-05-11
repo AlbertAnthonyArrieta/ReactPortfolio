@@ -1,16 +1,19 @@
 import Image from 'react-bootstrap/Image';
-import ProfilePic from '../images/profile.png';
+import Placeholder from '../images/placeholder.jpg';
 import { Container } from 'react-bootstrap';
-export const ImageAndDesc = ({img, paragraph, order}) => {
+export const ImageAndDesc = ({img, heading, paragraph, order}) => {
 
     return (
         <Container>
             <Container>
-                <div className='section__imageanddesc'>
-                    <Image className='section__imageanddesc--image' src={img} rounded />
+                <div className='imageanddesc'>
+                    <Image className='imageanddesc--image' src={img} rounded />
+                    <div>
+                    <h2 className='imageanddesc--heading'>{heading}</h2>
                     <p>
                         {paragraph}
                     </p>
+                    </div>
                 </div>
             </Container>
         </Container>
@@ -18,7 +21,8 @@ export const ImageAndDesc = ({img, paragraph, order}) => {
 }
 
 ImageAndDesc.defaultProps = {
-    img: ProfilePic,
-	paragraph: 'I am a young aspiring software developer located in Calgary, Alberta with about 4 years of programming experience. I am a proud SAIT Alumni graduating from the IT Software Development Diploma program and I am now pursuing a degree in Computer Science at the University of Lethbridge to broaden my skills as a software developer.'
+    img: Placeholder,
+    heading: "Heading",
+	paragraph: "Insert Paragraph Here"
 }
 export default ImageAndDesc
