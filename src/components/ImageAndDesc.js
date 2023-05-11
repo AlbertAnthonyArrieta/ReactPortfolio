@@ -5,12 +5,14 @@ export const ImageAndDesc = ({img, paragraph, order}) => {
 
     return (
         <Container>
-        <div className='section__imageanddesc'>
-            <Image className='section__imageanddesc--image' src={img} rounded />
-            <p>
-                {paragraph}
-            </p>
-        </div>
+            <Container>
+                <div className='section__imageanddesc'>
+                    <Image className='section__imageanddesc--image' src={img} rounded />
+                    <p>
+                        {paragraph}
+                    </p>
+                </div>
+            </Container>
         </Container>
     )
 }
