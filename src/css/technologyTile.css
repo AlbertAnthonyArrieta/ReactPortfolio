@@ -1,0 +1,22 @@
+.techTile {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px -5px grey;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:last baseline;
+    gap: 10px;
+    transition: transform 0.1s ease-in-out;
+}
+
+.techTile:hover {
+    transform: scale(1.1);
+}
+
+.techTile--icon {
+    width: 40px;
+    fill: #50C8CF;
+}

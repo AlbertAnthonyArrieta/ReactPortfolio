@@ -2,12 +2,23 @@
     margin-top: 500px;
 }
 
-.about--container {
-    display: flex;
-    justify-content: left;
-    gap: 100px
-}
-
 .about--subcontainer {
     padding: 50px;
+}
+
+.technology--container {
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 50px
+}
+
+.technology--tiles {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 15px;
 }
