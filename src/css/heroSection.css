@@ -40,3 +40,13 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
+
+.text__big {
+  font-size: 128px;
+}
+
+@media (max-width: 480px) {
+  .text__big {
+    font-size: 64px;
+  }
+}

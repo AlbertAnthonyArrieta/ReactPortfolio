@@ -1,0 +1,27 @@
+
+  /* Components */
+  
+  .imageanddesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 100px;
+  }
+
+  .imageanddesc--image {
+    width: 50vh;
+  }
+
+  /* Viewports */
+
+  @media (max-width: 1000px) {
+    .imageanddesc--image {
+        width: 300px;
+    }
+
+    .imageanddesc {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+  }

@@ -28,7 +28,7 @@ export const AboutSection = () => {
         <div id="about" className='section about'>
             <Container>
                 <h1 className='section--title'>ABOUT ME</h1>
-                <div className='about--subcontainer'>
+                <div className='section--container'>
                     <ImageAndDesc
                         img={ProfilePic}
                         heading={"Who is this guy?"}
@@ -36,7 +36,7 @@ export const AboutSection = () => {
                             "Hi there! I'm Albert, a Computer Science major in my last year at The University of Lethbridge, with a minor in New Media. I specialize in Front-end development, utilizing my creative ideas and eye for design to construct remarkable web applications. Furthermore, I hold a keen interest in full-stack development and aspire to develop robust, top-notch software."}
                     />
                 </div>
-                <div className='about--subcontainer'>
+                <div className='section--container'>
                     <h2 className='section--subheading'>Technologies</h2>
                     <div className='technology--container'>
                         <div className='about--item'>
