@@ -1,3 +1,13 @@
 .section--subheading__technologies {
-    margin-top: 50px;
+    margin-top: 500px;
+}
+
+.about--container {
+    display: flex;
+    justify-content: left;
+    gap: 100px
+}
+
+.about--subcontainer {
+    padding: 50px;
 }
