@@ -25,7 +25,7 @@ import { ReactComponent as BSIcon } from '../../icons/bootstrap-plain.svg';
 export const AboutSection = () => {
 
     return (
-        <div className='section about'>
+        <div id="about" className='section about'>
             <Container>
                 <h1 className='section--title'>ABOUT ME</h1>
                 <div className='about--subcontainer'>

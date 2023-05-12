@@ -5,7 +5,7 @@ import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons';
 export const HeroSection = () => {
 
 	return (
-		<div className="hero">
+		<div id="home" className="hero">
 			<div className="hero__main">
 				<div className="hero__main">
 					<Container className='hero__text'>
