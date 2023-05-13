@@ -6,7 +6,14 @@ White - #FEFFFE
 Pink - #FE206F
 Cyan - #50C8CF
 Light Grey - #DEDEDF
+Button Grey - #DDDDDD
 */
+
+:root {
+  --pink: #FE206F;
+  --cyan: #50C8CF;
+  --white: #FEFFFE
+}
 
 * {
     box-sizing: border-box;

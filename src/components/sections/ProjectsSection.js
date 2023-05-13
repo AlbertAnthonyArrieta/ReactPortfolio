@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap"
-
+import { FilterBar } from "../common/FilterBar"
 
 
 
@@ -10,7 +10,7 @@ export const ProjectsSection = () => {
             <Container>
                 <h1 className="section--title">PROJECTS</h1>
                 <div className="section--container">
-
+                    <FilterBar />
                 </div>
             </Container>
         </div>
