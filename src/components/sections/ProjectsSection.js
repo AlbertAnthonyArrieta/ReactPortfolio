@@ -2,6 +2,8 @@ import { Container } from "react-bootstrap";
 import { ProjectCard } from "../common/ProjectCard";
 import { useState } from "react";
 import PortfolioPic from '../../images/portfolioPic.png';
+import RiddlerPic from '../../images/riddlerPic.png';
+import SpiritPic from '../../images/spiritPic.png';
 
 const projects = [
     {
@@ -13,7 +15,8 @@ const projects = [
     {
         name: "Riddler",
         type: "mobile",
-        description: "A small riddle game created with Framework7 for android devices."
+        description: "A small riddle game created with Framework7 for android devices.",
+        img: RiddlerPic
     },
     {
         name: "Albron DGS Inc Website",
@@ -28,7 +31,8 @@ const projects = [
     {
         name: "Spirit Detector",
         type: "mobile",
-        description: "An android app created using Framework7 that utilizes the device's gyroscope and accelerometer."
+        description: "An android app created using Framework7 that utilizes the device's gyroscope and accelerometer.",
+        img: SpiritPic
     },
     {
         name: "Image Thresholding",
