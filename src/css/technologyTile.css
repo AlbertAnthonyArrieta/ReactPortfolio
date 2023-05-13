@@ -1,5 +1,4 @@
 .techTile {
-    border-radius: 10px;
     box-shadow: 5px 5px 15px -5px grey;
     padding-left: 30px;
     padding-right: 30px;
@@ -18,5 +17,5 @@
 
 .techTile--icon {
     width: 40px;
-    fill: #50C8CF;
+    fill: #FE206F;
 }

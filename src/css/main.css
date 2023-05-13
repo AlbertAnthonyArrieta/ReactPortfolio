@@ -51,6 +51,10 @@ Light Grey - #DEDEDF
 
   /* Sections */
 
+  .section {
+    padding-top: 100px;
+  }
+
   .section--container {
     padding-top: 50px;
 }
