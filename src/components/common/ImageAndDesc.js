@@ -7,7 +7,7 @@ export const ImageAndDesc = ({ img, heading, paragraph, order }) => {
         <div className='imageanddesc'>
             <Image className='imageanddesc--image imageanddesc--item' src={img} rounded />
             <div className='imageanddesc--item'>
-                <h2 className='section--subheading'>{heading}</h2>
+                <h2 className='text--subheading'>{heading}</h2>
                 <p>
                     {paragraph}
                 </p>

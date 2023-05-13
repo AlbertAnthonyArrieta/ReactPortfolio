@@ -1,0 +1,38 @@
+.projectCard  {
+    box-shadow: 0px 5px 10px -5px grey;
+    width: 400px;
+    transition: transform 0.1s ease-in-out;
+}
+
+.projectCard:hover {
+    transform: scale(1.05);
+}
+
+.projectCard--img {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.projectCard--type {
+    margin: 0;
+}
+
+.projectCard--name {
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.projectCard--content {
+    padding: 10px;
+}
+
+.projectCard--tags {
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+}
+
+.projectCard--tags p{
+    margin: 0;
+}

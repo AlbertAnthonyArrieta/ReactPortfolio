@@ -37,10 +37,10 @@ export const AboutSection = () => {
                     />
                 </div>
                 <div className='section--container'>
-                    <h2 className='section--subheading'>Technologies</h2>
+                    <h2 className='text--subheading'>Technologies</h2>
                     <div className='technology--container'>
                         <div className='about--item'>
-                            <h3 className='technology--title'>Programming Languages</h3>
+                            <h3 className='text--highlight__cyan'>Programming Languages</h3>
                             <div className='technology--tiles'>
                                 <TechnologyTile icon={<JavaIcon />} name={'Java'} />
                                 <TechnologyTile icon={<CPPIcon />} name={'C++'} />
@@ -53,7 +53,7 @@ export const AboutSection = () => {
 
                         </div>
                         <div className='about--item'>
-                            <h3 className='technology--title'>Front-end</h3>
+                            <h3 className='text--highlight__cyan'>Front-end</h3>
                             <div className='technology--tiles'>
                                 <TechnologyTile icon={<ReactIcon />} name={'React'} />
                                 <TechnologyTile icon={<AngularIcon />} name={'Angular'} />
@@ -63,7 +63,7 @@ export const AboutSection = () => {
                             </div>
                         </div>
                         <div className='about--item'>
-                            <h3 className='technology--title'>Tools</h3>
+                            <h3 className='text--highlight__cyan'>Tools</h3>
                             <div className='technology--tiles'>
                                 <TechnologyTile icon={<GitHubIcon />} name={'GitHub'} />
                                 <TechnologyTile icon={<GitLabIcon />} name={'GitLab'} />

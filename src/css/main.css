@@ -12,7 +12,7 @@ Button Grey - #DDDDDD
 :root {
   --pink: #FE206F;
   --cyan: #50C8CF;
-  --white: #FEFFFE
+  --white: #FEFFFE;
 }
 
 * {
@@ -71,9 +71,24 @@ Button Grey - #DDDDDD
     padding-top: 50px;
   }
 
-  .section--subheading {
+  .text--subheading {
     border-left: #FE206F solid 5px;
     padding-left: 10px;
+  }
+
+  .text--highlight__cyan {
+    background-color: var(--cyan);
+    color: var(--white);
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  .text--highlight__pink {
+    background-color: var(--pink);
+    color: var(--white);
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 20px;
   }
 
   /* Mobile */

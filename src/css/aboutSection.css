@@ -12,14 +12,6 @@
     gap: 50px
 }
 
-.technology--title {
-    background-color: #50C8CF;
-    color: white;
-    padding: 5px;
-    margin-bottom: 20px;
-    display: inline-block;
-}
-
 .technology--tiles {
     display: flex;
     justify-content: left;
