@@ -24,11 +24,12 @@
 
 .contact--email--container {
     padding-bottom: 50px;
+    padding-top: 100px;
 }
 
 .contact--subheading {
-    padding: 100px;
-    font-weight:400
+    font-weight:400;
+    padding-top: 50px;
 }
 
 .contacts--links {
