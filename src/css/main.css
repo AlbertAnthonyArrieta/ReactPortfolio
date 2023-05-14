@@ -16,6 +16,7 @@ Button Grey - #DDDDDD
   --cyan: #50C8CF;
   --white: #FEFFFE;
   --lightGrey: #DEDEDF;
+  --Grey: #4b4b4b;
   --darkGrey: #2b2b2b;
   --btnGrey: #DDDDDD;
 }
@@ -54,11 +55,11 @@ Button Grey - #DDDDDD
   }
   
   .color__cyan {
-    color: #50C8CF ;
+    color: #50C8CF !important;
   }
   
   .color__pink {
-    color: #FE206F ;
+    color: #FE206F !important;
   }
 
   /* Sections */
@@ -74,7 +75,6 @@ Button Grey - #DDDDDD
 
   .section--title {
     text-align: center;
-    padding-top: 50px;
   }
 
   .text--subheading {

@@ -14,7 +14,7 @@ export const ContactSection = () => {
                 <h1>CONTACT ME</h1>
                 <h2 className='contact--subheading'>If you have any questions or would like to connect, feel free to send me a message! </h2>
                 <div className='contact--email--container'>
-                    <button className='contact--email--btn'> Shoot me an Email <EmailIcon className='emailIcon'/> </button>
+                    <button className='contact--email--btn' onClick={() => window.location.href = 'mailto:albert.arrieta12@gmail.com'}> Shoot me an Email <EmailIcon className='emailIcon'/> </button>
                 </div>
                 <div className='contacts--links'>
                     <button className='contact--btn' onClick={() => window.location.href='https:www.linkedin.com/in/albert-arrieta/?originalSubdomain=ca'}><LinkedinIcon /></button>
