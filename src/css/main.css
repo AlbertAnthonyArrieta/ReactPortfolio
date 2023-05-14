@@ -10,9 +10,14 @@ Button Grey - #DDDDDD
 */
 
 :root {
+  --black: #1E2023;
+  --bluishBlack: #161B22;
   --pink: #FE206F;
   --cyan: #50C8CF;
   --white: #FEFFFE;
+  --lightGrey: #DEDEDF;
+  --darkGrey: #2b2b2b;
+  --btnGrey: #DDDDDD;
 }
 
 * {
@@ -60,6 +65,7 @@ Button Grey - #DDDDDD
 
   .section {
     padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .section--container {

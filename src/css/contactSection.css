@@ -1,0 +1,58 @@
+.contact {
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+}
+
+.contact--email--btn {
+    background-color: var(--darkGrey);
+    color: var(--white);
+    border: solid var(--darkGrey) 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    transition: transform 0.1s ease-in-out;
+}
+
+.contact--email--btn:hover {
+    transform: scale(1.05);
+    color: var(--cyan);
+    border-color: var(--cyan);
+}
+
+.contact--email--container {
+    padding-bottom: 50px;
+}
+
+.contact--subheading {
+    padding: 100px;
+    font-weight:400
+}
+
+.contacts--links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contact--btn {
+    background-color: var(--darkGrey);
+    fill: var(--pink);
+    width: 70px;
+    height: 70px;
+    border: solid var(--darkGrey) 3px;
+    padding: 20px;
+    transition: transform 0.1s ease-in-out;
+}
+
+.contact--btn:hover {
+    transform: scale(0.9);
+    border-color: var(--pink);
+}
+
+.emailIcon {
+    fill: var(--cyan);
+    width: 25px;
+}

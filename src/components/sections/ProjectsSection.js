@@ -36,7 +36,7 @@ const projects = [
         type: "Web App",
         description: "A volunteer management system created for the non-profit organization Calgary Animal Rescue Society (CARS).",
         img: CarsPic,
-        tags: ['AngularJS,', 'TypeScript', 'HTML', 'CSS']
+        tags: ['AngularJS', 'TypeScript', 'HTML', 'CSS']
     },
     {
         name: "Spirit Detector",
