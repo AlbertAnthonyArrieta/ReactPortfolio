@@ -3,46 +3,61 @@ import { ProjectCard } from "../common/ProjectCard";
 import { useState } from "react";
 import PortfolioPic from '../../images/portfolioPic.png';
 import RiddlerPic from '../../images/riddlerPic.png';
+import AlbronPic from '../../images/albronPic.png';
+import CarsPic from '../../images/carsPic.png';
 import SpiritPic from '../../images/spiritPic.png';
+import ThresholdPic from '../../images/thresholdPic.png';
+import TicPic from '../../images/ticPic.png';
 
 const projects = [
     {
         name: "My Portfolio",
-        type: "web",
+        type: "Web App",
         description: "This current website portfolio you are on right now! Upgraded to React.",
-        img: PortfolioPic
+        img: PortfolioPic,
+        tags: ['React', 'JavaScript', 'HTML', 'CSS']
     },
     {
         name: "Riddler",
-        type: "mobile",
+        type: "Mobile App",
         description: "A small riddle game created with Framework7 for android devices.",
-        img: RiddlerPic
+        img: RiddlerPic,
+        tags: ['Framework7', 'JavaScript', 'HTML', 'CSS']
     },
     {
         name: "Albron DGS Inc Website",
-        type: "web",
-        description: "A commercial Website that is built on React."
+        type: "Web App",
+        description: "A commercial Website that is built on React.",
+        img: AlbronPic,
+        tags: ['React', 'JavaScript', 'HTML', 'CSS']
     },
     {
         name: "CARS Volunteer Management System",
-        type: "web",
-        description: "A volunteer management system created for the non-profit organization Calgary Animal Rescue Society (CARS)."
+        type: "Web App",
+        description: "A volunteer management system created for the non-profit organization Calgary Animal Rescue Society (CARS).",
+        img: CarsPic,
+        tags: ['AngularJS,', 'TypeScript', 'HTML', 'CSS']
     },
     {
         name: "Spirit Detector",
-        type: "mobile",
+        type: "Mobile App",
         description: "An android app created using Framework7 that utilizes the device's gyroscope and accelerometer.",
-        img: SpiritPic
+        img: SpiritPic,
+        tags: ['Framework7', 'JavaScript', 'HTML', 'CSS']
     },
     {
         name: "Image Thresholding",
-        type: "java",
-        description: "A Java application that processes several image thresholding algorithms for black and white images."
+        type: "Desktop App",
+        description: "A Java application that processes several image thresholding algorithms for black and white images.",
+        img: ThresholdPic,
+        tags: ['Java', 'Image Processing']
     },
     {
-        name: "Impossible Tic Tac Toe",
-        type: "java",
-        description: "A Java application with an unbeatable AI using the MinMax Algorithm."
+        name: "Tic Tac Toe AI",
+        type: "Desktop App",
+        description: "A Java application with an unbeatable AI using the MinMax Algorithm.",
+        img: TicPic,
+        tags: ['Java', 'AI']
     },
     
     
@@ -56,11 +71,11 @@ export const ProjectsSection = () => {
         if (filter === "All") {
           return true;
         } else if (filter === "Web Apps") {
-          return project.type === "web";
-        } else if (filter === "Java") {
-          return project.type === "java";
+          return project.type === "Web App";
+        } else if (filter === "Desktop Apps") {
+          return project.type === "Desktop App";
         } else if (filter === "Mobile Apps") {
-            return project.type === "mobile";
+            return project.type === "Mobile App";
         }
       });
 
@@ -72,7 +87,7 @@ export const ProjectsSection = () => {
                     <div className="filterBar">
                         <button className={filter === "All" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("All")}>ALL</button>
                         <button className={filter === "Web Apps" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("Web Apps")}>WEB APPS</button>
-                        <button className={filter === "Java" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("Java")}>JAVA</button>
+                        <button className={filter === "Desktop Apps" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("Desktop Apps")}>DESKTOP APPS</button>
                         <button className={filter === "Mobile Apps" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("Mobile Apps")}>MOBILE APPS</button>
                     </div>
 
@@ -86,6 +101,5 @@ export const ProjectsSection = () => {
         </div>
     )
 }
-  
 
 export default ProjectsSection

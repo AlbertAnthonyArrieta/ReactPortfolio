@@ -13,8 +13,10 @@ export const ProjectCard = ({ project }) => {
 
                     </div>
                     <div className='projectCard--tags'>
-                        <p className='text--highlight__pink'>HTML</p>
-                        <p className='text--highlight__pink'>React</p>
+                        
+                    {project.tags.map((tag) => (
+                        <p className='projectCard--tag--text text--highlight__pink'>{tag}</p>
+                    ))}
                     </div>
                 </div>
             </div>
