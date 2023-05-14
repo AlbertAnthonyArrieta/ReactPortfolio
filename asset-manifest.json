@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/your-repo-name/static/css/main.1395879b.css",
+    "main.js": "/your-repo-name/static/js/main.bd0e33ec.js",
+    "static/js/787.e29dc422.chunk.js": "/your-repo-name/static/js/787.e29dc422.chunk.js",
+    "static/media/profile.png": "/your-repo-name/static/media/profile.3dc853a1a922c5452036.png",
+    "static/media/carsPic.png": "/your-repo-name/static/media/carsPic.f234a249e1635e3a67e4.png",
+    "static/media/albronPic.png": "/your-repo-name/static/media/albronPic.3a88ea195cb1de67b864.png",
+    "static/media/thresholdPic.png": "/your-repo-name/static/media/thresholdPic.ff04c0cc515cdcc4d334.png",
+    "static/media/portfolioPic.png": "/your-repo-name/static/media/portfolioPic.3beda4dc6156d8af84d3.png",
+    "static/media/spiritPic.png": "/your-repo-name/static/media/spiritPic.2808b3a0d575ef96547a.png",
+    "static/media/ticPic.png": "/your-repo-name/static/media/ticPic.920c1f60acade364add7.png",
+    "static/media/riddlerPic.png": "/your-repo-name/static/media/riddlerPic.39af37a6e0eef3032af4.png",
+    "static/media/jquery-plain.svg": "/your-repo-name/static/media/jquery-plain.134cb272235ba1d9d6e0b2b12967c26f.svg",
+    "static/media/react.svg": "/your-repo-name/static/media/react.3d84561aea283e41e1b87a48c3c0d8f7.svg",
+    "static/media/mysql.svg": "/your-repo-name/static/media/mysql.df55e7023c3b6e9ca99375abd354e0bc.svg",
+    "static/media/github-original.svg": "/your-repo-name/static/media/github-original.29ee7efcf669537aea84a0e821468a0c.svg",
+    "static/media/java.svg": "/your-repo-name/static/media/java.a63c71610dfcb7c410b744b4bb933581.svg",
+    "index.html": "/your-repo-name/index.html",
+    "static/media/python.svg": "/your-repo-name/static/media/python.eed3487d2b17f4320d4c94ab8689fc9e.svg",
+    "static/media/bootstrap-plain.svg": "/your-repo-name/static/media/bootstrap-plain.e6bdea618e389cc3c5facc60ecdf3d4b.svg",
+    "static/media/codepen.svg": "/your-repo-name/static/media/codepen.677da4a154f89db2f02d97a7fdae9dfc.svg",
+    "static/media/js-square.svg": "/your-repo-name/static/media/js-square.5c0a5e7486e9201b27c33a57b1251f8e.svg",
+    "static/media/code.svg": "/your-repo-name/static/media/code.b50033c44def64147f8377e4dea5df9a.svg",
+    "static/media/vscode-plain.svg": "/your-repo-name/static/media/vscode-plain.42fbf90a638f0ff44528b3773d8b8411.svg",
+    "static/media/cpp.svg": "/your-repo-name/static/media/cpp.586ced93a03a2571f5f44e7edcd64f1f.svg",
+    "static/media/paper-plane.svg": "/your-repo-name/static/media/paper-plane.ff1ae554c5a0300da4116313077e900d.svg",
+    "static/media/linkedin-in.svg": "/your-repo-name/static/media/linkedin-in.0662cb8170e5881b1fbf879db6be569f.svg",
+    "static/media/css3-alt.svg": "/your-repo-name/static/media/css3-alt.be4fb6f1c9039b50b3118b6176fc3554.svg",
+    "static/media/gitlab-plain.svg": "/your-repo-name/static/media/gitlab-plain.f08d561a54865725cbb90fac6f3fbfd0.svg",
+    "static/media/html5.svg": "/your-repo-name/static/media/html5.b12781148ff91e07ec729198b113b2ef.svg",
+    "static/media/angular.svg": "/your-repo-name/static/media/angular.d07edfa961d64f1cf422e8abb3df0859.svg",
+    "static/media/framework7.svg": "/your-repo-name/static/media/framework7.72fe100848a8931e01d24a930e4f204d.svg",
+    "main.1395879b.css.map": "/your-repo-name/static/css/main.1395879b.css.map",
+    "main.bd0e33ec.js.map": "/your-repo-name/static/js/main.bd0e33ec.js.map",
+    "787.e29dc422.chunk.js.map": "/your-repo-name/static/js/787.e29dc422.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1395879b.css",
+    "static/js/main.bd0e33ec.js"
+  ]
+}
