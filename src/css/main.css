@@ -47,7 +47,7 @@ Button Grey - #DDDDDD
   
   a {
     text-decoration: none;
-    color: #FEFFFE;
+    color: var(--white);
   }
 
   .text__center {
@@ -55,11 +55,11 @@ Button Grey - #DDDDDD
   }
   
   .color__cyan {
-    color: #50C8CF !important;
+    color: var(--cyan) !important;
   }
   
   .color__pink {
-    color: #FE206F !important;
+    color: var(--pink) !important;
   }
 
   /* Sections */
@@ -78,7 +78,7 @@ Button Grey - #DDDDDD
   }
 
   .text--subheading {
-    border-left: #FE206F solid 5px;
+    border-left: var(--pink) solid 5px;
     padding-left: 10px;
   }
 

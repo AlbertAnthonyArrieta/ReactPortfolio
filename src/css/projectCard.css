@@ -1,7 +1,10 @@
-.projectCard  {
-    box-shadow: 0px 5px 10px -5px grey;
+.projectCard {
+    box-shadow: 0px 10px 10px -3px var(--lightGrey);
     width: 400px;
     transition: transform 0.1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .projectCard:hover {
@@ -9,14 +12,15 @@
 }
 
 .projectCard--img {
-    max-width:400px;
-    max-height:300px;
+    max-width: 400px;
+    max-height: 300px;
     width: auto;
     height: auto;
 }
 
 .projectCard--type {
     margin: 0;
+    margin-top: 10px;
 }
 
 .projectCard--name {
@@ -24,16 +28,25 @@
     padding-bottom: 0;
 }
 
+.projectCard--desc {
+    height: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .projectCard--content {
     padding: 10px;
+    align-items: flex-start; 
 }
 
 .projectCard--tags {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
     gap: 5px;
 }
 
-.projectCard--tags p{
+.projectCard--tags p {
     margin: 0;
 }

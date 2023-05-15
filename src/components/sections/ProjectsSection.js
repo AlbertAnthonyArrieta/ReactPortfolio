@@ -27,7 +27,7 @@ const projects = [
     {
         name: "Albron DGS Inc Website",
         type: "Web App",
-        description: "A commercial Website that is built on React.",
+        description: "A commercial Website created for Design and Drafting company AlbronDGS Inc, built on the React framework.",
         img: AlbronPic,
         tags: ['React', 'JavaScript', 'HTML', 'CSS']
     },

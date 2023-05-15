@@ -1,5 +1,5 @@
 #navbar {
-    border-bottom: #50C8CF solid 3px;
+    border-bottom: var(--cyan) solid 3px;
 }
 
 .anchor a {

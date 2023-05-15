@@ -1,5 +1,5 @@
 .techTile {
-    box-shadow: 0px 5px 10px -5px grey;
+    box-shadow: 0px 5px 10px -5px var(--lightGrey);
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 20px;
@@ -17,5 +17,5 @@
 
 .techTile--icon {
     width: 40px;
-    fill: #FE206F;
+    fill: var(--pink);
 }

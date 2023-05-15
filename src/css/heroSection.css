@@ -10,7 +10,7 @@
 
 .hero__main {
   height: 70vh;
-  color: #FEFFFE;
+  color: var(--white);
   background-position: center center;
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@
 }
 
 .hero__text {
-  border-left: #50C8CF solid 10px;
+  border-left: var(--cyan) solid 10px;
 }
 
 .hero__text h1 {
@@ -35,7 +35,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #FEFFFE;
+  color: var(--white);
   animation-name: bounce;
   animation-duration: 3s;
   animation-iteration-count: infinite;

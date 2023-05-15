@@ -22,7 +22,7 @@ export const HeroSection = () => {
 							,
 							and
 							<span className='color__pink'> User-friendly </span>
-							code.
+							applications.
 						</h1>
 					</Container>
 				</div>
