@@ -39,7 +39,7 @@
     align-items: flex-start; 
 }
 
-.projectCard--tags {
+.project--tags {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -49,4 +49,26 @@
 
 .projectCard--tags p {
     margin: 0;
+}
+
+.modal--header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.modal--titles {
+
+}
+
+.modal--tags {
+    padding: 0px;
+}
+
+.modal--tags p {
+    
+}
+
+.modal--subheading {
+    padding-bottom: 10px;
 }

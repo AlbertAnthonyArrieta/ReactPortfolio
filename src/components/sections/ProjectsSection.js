@@ -14,49 +14,50 @@ const projects = [
         name: "My Portfolio",
         type: "Web App",
         description: "This current website portfolio you are on right now! Upgraded to React.",
-        img: PortfolioPic,
-        tags: ['React', 'JavaScript', 'HTML', 'CSS']
+        imgs: [PortfolioPic, RiddlerPic, SpiritPic],
+        tags: ['React', 'JavaScript', 'HTML', 'CSS'],
+        summary: "This project is the current website you are on right now! This website was created using React and showcases everything about myself! If you would like to get to know more about me, feel free to contact me!"
     },
     {
         name: "Riddler",
         type: "Mobile App",
         description: "A small riddle game created with Framework7 for android devices.",
-        img: RiddlerPic,
+        imgs: [RiddlerPic],
         tags: ['Framework7', 'JavaScript', 'HTML', 'CSS']
     },
     {
         name: "Albron DGS Inc Website",
         type: "Web App",
         description: "A commercial Website created for Design and Drafting company AlbronDGS Inc, built on the React framework.",
-        img: AlbronPic,
+        imgs: [AlbronPic],
         tags: ['React', 'JavaScript', 'HTML', 'CSS']
     },
     {
         name: "CARS Volunteer Management System",
         type: "Web App",
         description: "A volunteer management system created for the non-profit organization Calgary Animal Rescue Society (CARS).",
-        img: CarsPic,
+        imgs: [CarsPic],
         tags: ['AngularJS', 'TypeScript', 'HTML', 'CSS']
     },
     {
         name: "Spirit Detector",
         type: "Mobile App",
         description: "An android app created using Framework7 that utilizes the device's gyroscope and accelerometer.",
-        img: SpiritPic,
+        imgs: [SpiritPic],
         tags: ['Framework7', 'JavaScript', 'HTML', 'CSS']
     },
     {
         name: "Image Thresholding",
         type: "Desktop App",
         description: "A Java application that processes several image thresholding algorithms for black and white images.",
-        img: ThresholdPic,
+        imgs: [ThresholdPic],
         tags: ['Java', 'Image Processing']
     },
     {
         name: "Tic Tac Toe AI",
         type: "Desktop App",
         description: "A Java application with an unbeatable AI using the MinMax Algorithm.",
-        img: TicPic,
+        imgs: [TicPic],
         tags: ['Java', 'AI']
     },
     
