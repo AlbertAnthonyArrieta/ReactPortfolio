@@ -97,6 +97,10 @@ Button Grey - #DDDDDD
     margin-bottom: 20px;
   }
 
+  .modal {
+    border-radius: 0 !important;
+  }
+
   /* Mobile */
   @media (max-width: 480px) {
     .text__big {

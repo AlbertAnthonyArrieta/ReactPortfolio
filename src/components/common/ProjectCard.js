@@ -17,20 +17,26 @@ export const ProjectCard = ({ project }) => {
     return (
         <div>
             <div className="projectCard" onClick={handleShow}>
-                <div className='projectCard--content'>
-                    <img className='projectCard--img' src={project.imgs[0]}></img>
-                    <h3 className="text--highlight__cyan projectCard--type">{project.type}</h3>
-                    <h3 className='projectCard--name'>{project.name}</h3>
-                    <p>{project.description}</p>
+                <img className='projectCard--img' src={project.imgs[0]}></img>
+                <div className='projectCard--container'>
+                    <div className='projectCard--content'>
+                        <h3 className="text--highlight__cyan projectCard--type">{project.type}</h3>
+                        <h3 className='projectCard--name'>{project.name}</h3>
+                        <p>{project.description}</p>
+                    </div>
+                    <div className='project--tags'>
+                        {project.tags.map((tag) => (
+                            <p className='projectCard--tag--text text--highlight__pink'>{tag}</p>
+                        ))}
+                    </div>
                 </div>
-                <div className='project--tags'>
-                    {project.tags.map((tag) => (
-                        <p className='projectCard--tag--text text--highlight__pink'>{tag}</p>
-                    ))}
-                </div>
+
             </div>
-            <Modal size='lg' show={show} onHide={handleClose}>
+            <Modal className='modal' size='lg' show={show} onHide={handleClose}>
                 <Modal.Body>
+                    <Modal.Header closeButton>
+                        <h2 className="text--highlight__cyan projectCard--type">{project.type}</h2>
+                    </Modal.Header>
                     <Carousel activeIndex={index} onSelect={handleSelect}>
                         {project.imgs.map((img) => (
                             <Carousel.Item>
@@ -38,16 +44,13 @@ export const ProjectCard = ({ project }) => {
                             </Carousel.Item>
                         ))}
                     </Carousel>
-                    <div className='modal--header'>
-                        <div>
-                            <h2 className="text--highlight__cyan projectCard--type">{project.type}</h2>
-                            <h2 className='modal--name'>{project.name}</h2>
-                        </div>
-                        <div className='project--tags modal--tags'>
-                            {project.tags.map((tag) => (
-                                <p className='projectCard--tag--text text--highlight__pink'>{tag}</p>
-                            ))}
-                        </div>
+                    <div>
+                        <h2 className='modal--name'>{project.name}</h2>
+                    </div>
+                    <div className='project--tags modal--tags'>
+                        {project.tags.map((tag) => (
+                            <p className='projectCard--tag--text text--highlight__pink'>{tag}</p>
+                        ))}
                     </div>
 
                     <hr></hr>

@@ -1,10 +1,8 @@
 .projectCard {
     box-shadow: 0px 10px 10px -3px var(--lightGrey);
     width: 400px;
+    height: 650px;
     transition: transform 0.1s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .projectCard:hover {
@@ -12,15 +10,12 @@
 }
 
 .projectCard--img {
-    max-width: 400px;
-    max-height: 300px;
-    width: auto;
-    height: auto;
+    width: 400px;
+    height: 300px;
 }
 
 .projectCard--type {
     margin: 0;
-    margin-top: 10px;
 }
 
 .projectCard--name {
@@ -34,21 +29,32 @@
     text-overflow: ellipsis;
 }
 
+.projectCard--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .projectCard--content {
     padding: 10px;
-    align-items: flex-start; 
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
 }
 
 .project--tags {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 15px;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    padding: 10px;
+    padding-right: 10px;
     gap: 5px;
 }
 
 .projectCard--tags p {
     margin: 0;
+    padding-bottom: 0;
 }
 
 .modal--header {
@@ -71,4 +77,18 @@
 
 .modal--subheading {
     padding-bottom: 10px;
+}
+
+@media (max-width: 420px) {
+    .projectCard {
+        width: 300px;
+    }
+
+    .projectCard--img {
+        width: 300px;
+        height: 225px;
+    }
+
+    .projectCard--tags {
+    }
 }

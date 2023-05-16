@@ -8,6 +8,7 @@ import CarsPic from '../../images/carsPic.png';
 import SpiritPic from '../../images/spiritPic.png';
 import ThresholdPic from '../../images/thresholdPic.png';
 import TicPic from '../../images/ticPic.png';
+import InfinityPic from '../../images/inifinityPic.png';
 
 const projects = [
     {
@@ -40,6 +41,13 @@ const projects = [
         tags: ['AngularJS', 'TypeScript', 'HTML', 'CSS']
     },
     {
+        name: "The Infinity Stones",
+        type: "Web App",
+        description: "A mini website that explains the journey of the Infinity Stones in the Marvel Cinematic Universe.",
+        imgs: [InfinityPic],
+        tags: ['JQuery', 'JavaScript', 'HTML', 'CSS']
+    },
+    {
         name: "Spirit Detector",
         type: "Mobile App",
         description: "An android app created using Framework7 that utilizes the device's gyroscope and accelerometer.",
@@ -60,8 +68,6 @@ const projects = [
         imgs: [TicPic],
         tags: ['Java', 'AI']
     },
-    
-    
 ]
 
 
