@@ -44,39 +44,85 @@
 
 .project--tags {
     position: absolute;
-    margin-top: 300px;
-    margin-left: 15px;
+    margin-top: 295px;
+    flex-wrap: wrap;
+}
+
+.tags {
     display: flex;
     align-items: center;
-    padding-right: 10px;
     gap: 5px;
 }
 
 .projectCard--tags p {
     margin: 0;
-    padding-bottom: 0;
+}
+
+/* Modal */
+
+.modal--img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .modal--header {
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
 }
 
 .modal--titles {
+    padding-right: 50px;
+}
 
+.modal--name {
+    margin-top: 10px;
 }
 
 .modal--tags {
-    padding: 0px;
-}
-
-.modal--tags p {
-    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: right;
 }
 
 .modal--subheading {
     padding-bottom: 10px;
+}
+
+.modal--button {
+    border: none;
+    background-color: var(--white);
+}
+
+.modal--button:hover {
+    transform: scale(.85);
+}
+
+.modal--link {
+    font-weight: 700;
+    color: var(--Grey);
+    padding: 10px;
+    text-decoration: none;
+}
+
+.modal--icon {
+    fill: var(--pink);
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+.modal--icon__grey {
+    fill: var(--neutralGrey);
+    width: 30px;
+    margin-right: 10px;
+}
+
+.modal--footer {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media (max-width: 420px) {
@@ -90,5 +136,10 @@
     }
 
     .projectCard--tags {
+        visibility: hidden;
+    }
+
+    .modal--tags p {
+        font-size: 12px;
     }
 }

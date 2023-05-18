@@ -2,20 +2,28 @@ import { Container } from "react-bootstrap";
 import { ProjectCard } from "../common/ProjectCard";
 import { useState } from "react";
 import PortfolioPic from '../../images/portfolioPic.png';
+import PortfolioPic2 from '../../images/portfolioB.png';
+import PortfolioPic3 from '../../images/portfolioA.png';
 import RiddlerPic from '../../images/riddlerPic.png';
+import RiddlerPic2 from '../../images/riddlerPic2.png';
+import RiddlerPic3 from '../../images/riddlerPic3.png';
 import AlbronPic from '../../images/albronPic.png';
 import CarsPic from '../../images/carsPic.png';
+import CarsPic2 from '../../images/cars2.jpg';
+import CarsPic3 from '../../images/cars3.jpg';
 import SpiritPic from '../../images/spiritPic.png';
 import ThresholdPic from '../../images/thresholdPic.png';
 import TicPic from '../../images/ticPic.png';
-import InfinityPic from '../../images/inifinityPic.png';
+import InfinityPic from '../../images/infinityPic.png';
+import InfinityPic2 from '../../images/infinityPic2.png';
+import InfinityPic3 from '../../images/infinityPic3.png';
 
 const projects = [
     {
         name: "My Portfolio",
         type: "Web App",
         description: "This current website portfolio you are on right now! Upgraded to React.",
-        imgs: [PortfolioPic, RiddlerPic, SpiritPic],
+        imgs: [PortfolioPic, PortfolioPic2, PortfolioPic3],
         tags: ['React', 'JavaScript', 'HTML', 'CSS'],
         summary: "This project is the current website you are on right now! This website was created using React and showcases everything about myself! If you would like to get to know more about me, feel free to contact me!"
     },
@@ -23,8 +31,9 @@ const projects = [
         name: "Riddler",
         type: "Mobile App",
         description: "A small riddle game created with Framework7 for android devices.",
-        imgs: [RiddlerPic],
-        tags: ['Framework7', 'JavaScript', 'HTML', 'CSS']
+        imgs: [RiddlerPic, RiddlerPic2, RiddlerPic3],
+        tags: ['Framework7', 'JavaScript', 'HTML', 'CSS'],
+        summary: "A small riddle game created with Framework7 for android devices. This mobile game will take you into 10 levels of riddles. You are rewarded points for every riddle solved allowing you to buy hints for future riddles. "
     },
     {
         name: "Albron DGS Inc Website",
@@ -37,15 +46,18 @@ const projects = [
         name: "CARS Volunteer Management System",
         type: "Web App",
         description: "A volunteer management system created for the non-profit organization Calgary Animal Rescue Society (CARS).",
-        imgs: [CarsPic],
+        imgs: [CarsPic, CarsPic2, CarsPic3],
         tags: ['AngularJS', 'TypeScript', 'HTML', 'CSS']
     },
     {
         name: "The Infinity Stones",
         type: "Web App",
         description: "A mini website that explains the journey of the Infinity Stones in the Marvel Cinematic Universe.",
-        imgs: [InfinityPic],
-        tags: ['JQuery', 'JavaScript', 'HTML', 'CSS']
+        imgs: [InfinityPic, InfinityPic2, InfinityPic3],
+        tags: ['JQuery', 'JavaScript', 'HTML', 'CSS'],
+        github: "https://github.com/AlbertAnthonyArrieta/The-Infinity-Stones",
+        link: "https://www.albertarrieta.dev/The-Infinity-Stones/index.html",
+        summary: "Learn more about the infinity stones in this mini website. Collect the stones and discover what each of the stones are used for in the Marvel Cinematic Universe. Once all the stones are collected, click snap to see what happens when the stones were used for post Avengers: Infinity War."
     },
     {
         name: "Spirit Detector",
@@ -83,6 +95,8 @@ export const ProjectsSection = () => {
           return project.type === "Desktop App";
         } else if (filter === "Mobile Apps") {
             return project.type === "Mobile App";
+        } else {
+            return true;
         }
       });
 

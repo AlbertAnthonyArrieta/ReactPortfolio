@@ -17,6 +17,7 @@ Button Grey - #DDDDDD
   --white: #FEFFFE;
   --lightGrey: #DEDEDF;
   --Grey: #4b4b4b;
+  --neutralGrey: gray;
   --darkGrey: #2b2b2b;
   --btnGrey: #DDDDDD;
 }
@@ -94,7 +95,7 @@ Button Grey - #DDDDDD
     color: var(--white);
     display: inline-block;
     padding: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   .modal {
@@ -109,5 +110,12 @@ Button Grey - #DDDDDD
 
     .section--title {
       padding: 25px;
+    }
+
+    .projectCard--tag--text {
+    }
+
+    .tags {
+      font-size: small;
     }
   }
