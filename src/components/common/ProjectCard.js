@@ -62,14 +62,20 @@ export const ProjectCard = ({ project }) => {
                 </Modal.Body>
                 <Modal.Footer className='justify-content-between'>
                     <div className='modal--footer'>
-                        <a href={project.github} className='modal--link'>
-                            <GitHubIcon  className='modal--icon' />
-                            GitHub
-                        </a>
-                        <a  href={project.link} className='modal--link' >
-                            <LinkIcon className='modal--icon' />
-                            Visit Site
-                        </a>
+                        {project.github ? (
+                            <a href={project.github} className='modal--link'>
+                                <GitHubIcon className='modal--icon' />
+                                GitHub
+                            </a>
+                        ) : null}
+
+                        {project.link ? (
+                            <a href={project.link} className='modal--link' >
+                                <LinkIcon className='modal--icon' />
+                                Visit Site
+                            </a>
+                        ) : null}
+
                     </div>
                     <div className='d-flex justify-content-end'>
                         <button className='modal--button modal--icon__grey' onClick={handleClose}>

@@ -107,6 +107,10 @@
     text-decoration: none;
 }
 
+.modal--link--disabled {
+    visibility: hidden;
+}
+
 .modal--icon {
     fill: var(--pink);
     width: 30px;
