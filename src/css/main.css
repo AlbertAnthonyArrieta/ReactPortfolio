@@ -10,15 +10,15 @@ Button Grey - #DDDDDD
 */
 
 :root {
-  --black: #1E2023;
-  --bluishBlack: #161B22;
+  --black: #121315;
+  --bluishBlack: #0d1014;
   --pink: #FE206F;
   --cyan: #50C8CF;
   --white: #FEFFFE;
   --lightGrey: #DEDEDF;
   --Grey: #4b4b4b;
   --neutralGrey: gray;
-  --darkGrey: #2b2b2b;
+  --darkGrey: #1c1c1c;
   --btnGrey: #DDDDDD;
 }
 
